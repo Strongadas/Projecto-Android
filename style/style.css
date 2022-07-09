@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(161, 243, 161);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
+header {
+    background-image: linear-gradient(to bottom,rgb(2, 61, 2),rgb(11, 185, 11));
+    padding-top: 40px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black;
+    
+}
+header > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    min-height: 50px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px black;
+    padding-bottom: 10px;
+    
+}
+
+nav {
+    background-color: green;
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+    
+}
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+nav > a:hover {
+    background-color: rgb(2, 192, 2);
+    color: rgb(1, 71, 1);
+
+
+}
+
+main {
+   background-color: white;
+   min-height: 300px;
+   max-width: 800px;
+   margin: auto;
+   padding: 20px;
+   box-shadow: 0px 0px 10px black;
+   margin-bottom: 30px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+}
+main img {
+    width: 100%;
+}
+main img#pequeno {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+
+main h1 {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+main h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(4, 59, 4);
+    background-image: linear-gradient(to right,rgb(3, 245, 3),transparent);
+    text-indent: 8px;
+
+}
+
+main > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+main strong {
+    color: rgb(2, 77, 2);
+    font-weight: bold;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: green;
+    color: black;
+}
+main a:hover {
+    text-decoration: underline;
+    color: rgb(17, 1, 161);
+}
+div.video{
+    background-color: green;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe {
+    position:absolute;
+    top: 6,5%;
+    left: 3%;
+    right: 3%;
+    width: 95%;
+    height: 90% ;
+    box-shadow: 3px 4px  3px
+    3px rgba(0, 0, 0, 0.582);
+}
+
+aside{
+    background-color: rgb(0, 189, 0);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.801);
+
+}
+aside > h3 {
+ background-color: rgb(0, 53, 0);
+ color: white;
+ margin: -10px -10px 0px -10px;
+ border-radius: 10px 10px 0px 0px;
+ padding: 5px;
+
+
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+ footer > p > a {
+     color: white;
+     font-weight: bolder;
+     text-decoration: none;
+ }
+ footer a:hover {
+     text-decoration: underline;
+     color: blue;
+ }
